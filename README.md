@@ -1,0 +1,2 @@
+# .py-script
+Python scripts
