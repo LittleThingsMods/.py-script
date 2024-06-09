@@ -1,4 +1,4 @@
-# .py-script
+# Random Tools 4 You
 
 Brief description of what the repository is about.
 
@@ -11,8 +11,6 @@ Provide an overview of what this repository contains. Mention the purpose of the
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Scripts](#scripts)
-4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Installation
 
@@ -30,12 +28,5 @@ List and briefly describe each of the Python scripts included in this repository
 2. `script2.py` - Description of what this script does.
 3. ...
 
-## Contributing
-
-Explain how others can contribute to this project. Provide guidelines for submitting bug reports, feature requests, or pull requests. Include information about the coding style, testing, and any other relevant contribution guidelines.
-
-## License
-
-Specify the license under which this project is distributed. Include any relevant license information or links to the full license text.
 
 Cgpt ahh description
