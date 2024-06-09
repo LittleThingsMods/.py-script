@@ -1,0 +1,33 @@
+import random
+import string
+import time
+import keyboard
+
+def generate_random_string(length=18):
+    """Generate a random string of fixed length."""
+    letters_and_digits = string.ascii_letters + string.digits
+    return ''.join(random.choice(letters_and_digits) for _ in range(length))
+
+def check_code_format(code):
+    """Check if the code has the correct format (18 alphanumeric characters)."""
+    return len(code) == 18 and code.isalnum()
+
+def replace_placeholder():
+    """Replace [slut] in the URL with a random string and print it."""
+    url = "discord.gift/[slut]"
+    while True:
+        if keyboard.is_pressed('h'):
+            print("Exiting...")
+            break
+        random_string = generate_random_string()
+        new_url = url.replace("[slut]", random_string)
+        is_valid_format = check_code_format(random_string)
+        print(f"{new_url} - {'Valid Format' if is_valid_format else 'Invalid Format'}")
+        time.sleep(0.01)
+    
+    # Keep the window open to see the last URL
+    input("Press Enter to close...")
+
+if __name__ == "__main__":
+    print("Press 'h' to stop the script.")
+    replace_placeholder()
